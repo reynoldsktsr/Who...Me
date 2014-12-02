@@ -83,23 +83,6 @@
   animation-timing-function: steps(8, start); }
 
 
-.ion-juggle:before {
-	content: "\f3a1"; }
-.ion-juggle-outline:before {
-	content: "\f3a2";
-}
-.ion-hands:before {
-	content: "\f3a3";
-}
-.ion-hands-outline:before {
-	content: "\f3a4";
-}
-.ion-family:before {
-	content: "\f3b1";
-}
-.ion-family-outline:before {
-	content: "\f3b2";
-}
 .ion-alert:before {
   content: "\f101"; }
 
