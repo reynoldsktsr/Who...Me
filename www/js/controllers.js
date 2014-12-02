@@ -48,7 +48,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('QuizCtrl',function($scope){
-	$scope.quiz1List1 = [
+	$scope.q1l1 = [
 		{ text: "It functions as it's supposed to, but it's supposed to be unfair", value: "1"},
 		{ text: "Completely Dysfunctional", value: "2"},
 		{ text: "Flawed", value: "3"},
