@@ -44,3 +44,17 @@ button#begintap{
 	width: 100%;
 }
 
+.tabs.tab-item.icon.juggle {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 100%;
+	background-image: url(../img/juggle.svg);
+	background-size: contain;
+}
+.tabs.tab-item.icon.juggle-outline {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	height: 100%;
+	background-image: url(../img/juggle-outline.svg);
+	background-size: contain;
+}
