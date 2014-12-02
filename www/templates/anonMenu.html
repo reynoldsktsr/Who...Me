@@ -1,0 +1,40 @@
+<ion-side-menus>
+
+	<ion-side-menu-content>
+		<ion-nav-bar class="bar-stable nav-title-slide-ios7">
+			<ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+		</ion-nav-bar>
+		<ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+	</ion-side-menu-content>
+
+	<ion-side-menu side="left">
+		<header class="bar bar-header bar-assertive">
+			<h1 class="title">WHO...ME</h1>
+		</header>
+		<ion-content class="has-header">
+			<div class="list">
+				<a nav-clear menu-close class="item item-icon-left" href="#/app/home">
+					<i class="icon ion-home"></i>
+					Home
+				</a>
+				<a nav-clear menu-close class="item item-icon-left" ng-click="login()">
+					<i class="icon ion-log-in"></i>
+					Login
+				</a>
+				<a nav-clear menu-close class="item item-icon-left" href="#/app/register">
+					<i class="icon ion-person-add"></i>
+					Register
+				</a>
+
+
+				<!--BEGIN LOGGED IN MENU-->
+				<a nav-clear menu-close class="item item-icon-left" href="#/app/quizHome">
+					<i class="icon ion-arrow-graph-up-right"></i>
+					Quizzes
+				</a>
+
+
+			</div>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>

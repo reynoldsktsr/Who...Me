@@ -1,0 +1,46 @@
+#quiz_card{
+	background-color: rgba(240,240,240,.8);
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
+#quiz_icon{
+	width: 100%;
+}
+button#begintap{
+	line-height: 20px;
+	font-size:.9em;
+}
+#container_main{
+	background-image: url(../img/mainbg.png);
+	background-size: 100%;
+	position: fixed;
+}
+#container_quiz{
+	background-image: url(../img/mainbg.png);
+	background-size: 100%;
+	background-position: fixed;
+}
+
+#home_buttons{
+	padding:0 5% 0 5%;
+}
+.registerRow{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%; }
+.registerCol{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	display: block;
+	padding: 5px;
+	width: 100%;
+}
+

@@ -1,0 +1,18 @@
+<ion-view title="Super Hero" hide-nav-bar="true">
+	<ion-header-bar class="bar-assertive">
+		<ion-nav-back-button class="button-clear">
+			<i class="ion-arrow-left-c"></i> Back
+		</ion-nav-back-button>
+		<h1 class="title">Super Hero</h1>
+	</ion-header-bar>
+	<ion-content has-title="true" id="container_quiz" ng-controller="QuizCtrl">
+		<div class="list">
+			<div class="item item-text-wrap">
+				How functional do you think the American political system is?
+			</div>
+			<ion-radio ng-repeat="item in quiz1List1" ng-value="item.value" ng-model="data.clientQ1L1" class="item item-text-wrap item-stable">
+				{{ item.text }}
+			</ion-radio>
+		</div>
+	</ion-content>
+</ion-view>
