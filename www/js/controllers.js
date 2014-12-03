@@ -56,36 +56,35 @@ angular.module('starter.controllers', [])
 		{ text: "Nearly if not perfect", value: "5"},
 	];
 	$scope.q1l2 = [
-		{ text: "Start a petition to get a new printer! Your boss is so cheap!" value: "1"},
-		{ text: "Make a quick dash to the Kinkos next door because no one in your office is quick enough to handle it" value: "2"},
-		{ text: "Go around the office explaining the situation and find someone who could fix it" value: "3"},
-		{ text: "Find the instruction manual and figure out how to fix it, the printing will just have to wait" value: "4"},
-		{ text: "Go back to your desk and wait for someone else to figure it out, you’ll do your other work in the mean time" value: "5"},
+		{ text: "Start a petition to get a new printer! Your boss is so cheap!", value: "1"},
+		{ text: "Make a quick dash to the Kinkos next door because no one in your office is quick enough to handle it", value: "2"},
+		{ text: "Go around the office explaining the situation and find someone who could fix it", value: "3"},
+		{ text: "Find the instruction manual and figure out how to fix it, the printing will just have to wait", value: "4"},
+		{ text: "Go back to your desk and wait for someone else to figure it out, you’ll do your other work in the mean time", value: "5"},
 	];
 	$scope.q1l3 = [
-		{ text: "Abolish capitalism" value: "1"},
-		{ text: "Make everyone accountable for their own actions" value: "2"},
-		{ text: "Abolish disease" value: "3"},
-		{ text: "Make it so every person has a chance to make something of their lives" value: "4"},
-		{ text: "The world is perfect as it is!" value: "5"},
+		{ text: "Abolish capitalism", value: "1"},
+		{ text: "Make everyone accountable for their own actions", value: "2"},
+		{ text: "Abolish disease", value: "3"},
+		{ text: "Make it so every person has a chance to make something of their lives", value: "4"},
+		{ text: "The world is perfect as it is!", value: "5"},
 	];
 	$scope.q1l4 = [
-		{ text: "They would be able to take out all the city’s power with the click of a finger" value: "1"},
-		{ text: "They would be able to make villains see the error of their ways after one conversation" value: "2"},
-		{ text: "They would be the smart system that instantly provided you with any information available on this planet with the click of a button" value: "3"},
-		{ text: "They would be able to provide you with endless tools/weapons at your request (even when fighting and you run out)" value: "4"},
-		{ text: "They would have the power to pinpoint and jail criminals before they committed the crime" value: "5"},
+		{ text: "They would be able to take out all the city’s power with the click of a button", value: "1"},
+		{ text: "They would be able to make villains see the error of their ways after one conversation", value: "2"},
+		{ text: "Could instantly provided you with any information available on this planet with the click of a button", value: "3"},
+		{ text: "They would be able to provide you with endless tools/weapons at your request (even when fighting and you run out)", value: "4"},
+		{ text: "They would have the power to pinpoint and jail criminals before they committed the crime", value: "5"},
 	];
 	$scope.q1l5 = [
-		{ text: "Abolish greed" value: "1"},
-		{ text: "Abolish selfishness" value: "2"},
-		{ text: "Increase empathy (exponentially)" value: "3"},
-		{ text: "Increase wisdom and knowledge (exponentially)" value: "4"},
-		{ text: "Increase happiness (exponentially)" value: "5"},
+		{ text: "Abolish greed", value: "1"},
+		{ text: "Abolish selfishness", value: "2"},
+		{ text: "Increase empathy (exponentially)", value: "3"},
+		{ text: "Increase wisdom and knowledge (exponentially)", value: "4"},
+		{ text: "Increase happiness (exponentially)", value: "5"},
 	];
 
 	$scope.data = {
-		clientQ1L1: ''
 	};
 })
 ;

@@ -110,8 +110,39 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 				}
 			}
 		})
+		.state('app.q1r1',{
+			url: "/q1r1",
+			views: {
+				'menuContent' :{
+					templateUrl:"templates/quizlib/quiz1/q1r1.html"
+				}
+			}
+		})
+		.state('app.q1r2',{
+			url: "/q1r2",
+			views: {
+				'menuContent' :{
+					templateUrl:"templates/quizlib/quiz1/q1r2.html"
+				}
+			}
+		})
+		.state('app.q1r3',{
+			url: "/q1r3",
+			views: {
+				'menuContent' :{
+					templateUrl:"templates/quizlib/quiz1/q1r3.html"
+				}
+			}
+		})
+		.state('app.q1r4',{
+			url: "/q1r4",
+			views: {
+				'menuContent' :{
+					templateUrl:"templates/quizlib/quiz1/q1r4.html"
+				}
+			}
+		})
 		;
 	// if none of the above states are matched, use this as the fallback
 	$urlRouterProvider.otherwise('/app/home');
 });
-

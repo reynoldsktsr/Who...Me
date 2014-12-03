@@ -1,10 +1,48 @@
+a{
+	text-decoration: none;
+}
 #quiz_card{
+	position: relative;
 	background-color: rgba(240,240,240,.8);
-	margin-bottom: 5px;
+	margin-bottom: 0;
 	padding-bottom: 0;
+	margin-top:0;
+	padding-top: 0;
+	border-radius: 5px;
+	overflow: hidden;
 }
 #quiz_icon{
 	width: 100%;
+	border-radius: 5px;
+}
+#quiz_feature{
+	width: 100%;
+	border-radius: 5px;
+}
+#quiz_title{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	background-color: #f3f3f3;
+	text-decoration: none;
+	color: #000;
+	font-size: 10pt;
+}
+#profileInfo{
+	text-align: center;
+	color: #aaa;
+	line-height: 8pt;
+	font-size: 10pt;
+}
+#quiz_mainTitle{
+	margin-top: 15px;
+}
+img.bottom-space{
+	margin-bottom: 15px;
+}
+#results_text{
+	font-size: 9pt;
 }
 button#begintap{
 	line-height: 20px;
@@ -42,19 +80,4 @@ button#begintap{
 	display: block;
 	padding: 5px;
 	width: 100%;
-}
-
-.tabs.tab-item.icon.juggle {
-	background-repeat: no-repeat;
-	background-position: 50%;
-	height: 100%;
-	background-image: url(../img/juggle.svg);
-	background-size: contain;
-}
-.tabs.tab-item.icon.juggle-outline {
-	background-repeat: no-repeat;
-	background-position: 50%;
-	height: 100%;
-	background-image: url(../img/juggle-outline.svg);
-	background-size: contain;
 }

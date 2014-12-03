@@ -1,18 +1,55 @@
-<ion-view title="Super Hero" hide-nav-bar="true">
-	<ion-header-bar class="bar-assertive">
-		<ion-nav-back-button class="button-clear">
-			<i class="ion-arrow-left-c"></i> Back
-		</ion-nav-back-button>
-		<h1 class="title">Super Hero</h1>
-	</ion-header-bar>
+<ion-view title="Superhero Quiz" hide-nav-bar="false">
+	<ion-nav-bar class="bar-assertive">
+		<ion-nav-back-button class="button-icon ion-ios7-arrow-back"> Back</ion-nav-back-button>
+		<h1 class="title">SUPERHERO</h1>
+	</ion-nav-bar>
 	<ion-content has-title="true" id="container_quiz" ng-controller="QuizCtrl">
-		<div class="list">
-			<div class="item item-text-wrap">
-				How functional do you think the American political system is?
-			</div>
-			<ion-radio ng-repeat="item in q1l1" ng-value="item.value" ng-model="data.clientQ1L1" class="item item-text-wrap item-stable">
+		<div class="col">
+			<h1 id="quiz_mainTitle">What Superhero<br/>Are You?</h1>
+			<img src="img/SUPERMAN_QUIZ_FEATURED.png" id="quiz_feature" class="bottom-space">			
+		</div>
+		<div class="item item-text-wrap item-calm">
+			<b>How functional do you think the American political system is?</b>
+		</div>
+		<div class="list list-inset">
+			<ion-radio ng-repeat="item in q1l1" ng-value="item.value" ng-model="data.clientQ1L1" class="item item-text-wrap item-stable" name="q1l1">
 				{{ item.text }}
 			</ion-radio>
+		</div>
+		<div class="item item-text-wrap item-calm">
+			<b>If you needed to print something urgently in your office and you noticed the printer was broken and you didn’t know how to fix it, what would be your first move?</b>
+		</div>
+		<div class="list list-inset">
+			<ion-radio ng-repeat="item in q1l2" ng-value="item.value" ng-model="data.clientQ1L2" class="item item-text-wrap item-stable" name="q1l2">
+				{{ item.text }}
+			</ion-radio>
+		</div>
+		<div class="item item-text-wrap item-calm">
+			<b>If you could pick one thing that would help the world the most, what would you do?</b>
+		</div>
+		<div class="list list-inset">
+			<ion-radio ng-repeat="item in q1l3" ng-value="item.value" ng-model="data.clientQ1L3" class="item item-text-wrap item-stable" name="q1l3">
+				{{ item.text }}
+			</ion-radio>
+		</div>
+		<div class="item item-text-wrap item-calm">
+			<b>If you were a superhero, what would your side kick be able to do?</b>
+		</div>
+		<div class="list list-inset">
+			<ion-radio ng-repeat="item in q1l4" ng-value="item.value" ng-model="data.clientQ1L4" class="item item-text-wrap item-stable" name="q1l4">
+				{{ item.text }}
+			</ion-radio>
+		</div>
+		<div class="item item-text-wrap item-calm">
+			<b>If you could abolish or exponentially increase one human characteristic in all humans what would it be?</b>
+		</div>
+		<div class="list list-inset">
+			<ion-radio ng-repeat="item in q1l5" ng-value="item.value" ng-model="data.clientQ1L5" class="item item-text-wrap item-stable" name="q1l5">
+				{{ item.text }}
+			</ion-radio>
+		</div>
+		<div class="col">
+			<a class="button button-block button-assertive" href="#/app/q1r2">Submit</a>
 		</div>
 	</ion-content>
 </ion-view>
